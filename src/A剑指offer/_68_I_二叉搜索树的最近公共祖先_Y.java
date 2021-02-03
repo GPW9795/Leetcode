@@ -8,8 +8,8 @@ public class _68_I_二叉搜索树的最近公共祖先_Y {
         if (root == null || root == p || root == q) return root;
         TreeNode left = lowestCommonAncestor(root.left, p, q);
         TreeNode right = lowestCommonAncestor(root.right, p, q);
-        if (left != null) return left;
-        if (right != null) return right;
+        if (left == null) return right;
+        if (right == null) return left;
         return root;
     }
 }
