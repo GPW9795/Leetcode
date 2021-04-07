@@ -1,31 +1,46 @@
-import java.util.Arrays;
+import java.util.*;
 
 public class Solution {
-    public static void helper(int[][] a) {
-        for (int i = 0; i < a.length; i++) { // 二维数组的长度
-            for (int j = 0; j < a[i].length; j++) { // 每个一维数组的长度
-                int n = j + 1;
-                for (int m = i; m < a.length; m++) {
-                    for (; n < a[i].length; n++) {
-                        if (a[i][j] > a[m][n]) {
-                            int min = a[m][n];
-                            a[m][n] = a[i][j];
-                            a[i][j] = min;
-                        }
-                    }
-                    n = 0; // 此处是给n从第二个一维数组开始取0这个坐标
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+        int p = sc.nextInt();
+        int[][] arr = new int[m][2];
+        int[] degrees = new int[n + 1];
+        for (int i = 0; i < m; i++) {
+            arr[i][0] = sc.nextInt();
+            arr[i][1] = sc.nextInt();
+            degrees[arr[i][1]]++;
+        }
+
+        PriorityQueue<Integer> queue = new PriorityQueue<>();
+        for (int i = 1; i <= n; i++) {
+            if (degrees[i] == 0) queue.offer(i);
+        }
+
+        int res = n;
+        boolean flag = true;
+        while (!queue.isEmpty() && flag) {
+            int cur = queue.poll();
+            if (cur == p) {
+                System.out.println(n);
+                break;
+            }
+            res--;
+            for (int[] a : arr) {
+                if (a[0] != cur) continue;
+                if (--degrees[a[1]] == 0) queue.offer(a[1]);
+                if (a[1] == p) {
+                    flag = false;
+                    break;
                 }
             }
         }
-        for (int i = 0; i < a.length; i++) {
-            for (int j = 0; j < a[0].length; j++) {
-                System.out.println(a[i][j]);
-            }
+        StringBuilder sb = new StringBuilder();
+        for (int i = 1; i <= res; i++) {
+            sb.append(i);
         }
-    }
-
-    public static void main(String[] args) {
-        int[][] A = {{3, 1, 2}, {4, 1, 3}};
-        helper(A);
+        System.out.println(sb.toString());
     }
 }

@@ -3,7 +3,6 @@ package 二叉树;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
-import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * https://leetcode-cn.com/problems/binary-tree-postorder-traversal/

@@ -1,6 +1,5 @@
 package A剑指offer;
 
-import javax.swing.*;
 import java.util.LinkedList;
 import java.util.Stack;
 

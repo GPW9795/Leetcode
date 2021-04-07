@@ -1,8 +1,5 @@
 package 双指针;
 
-import java.util.Arrays;
-import java.util.Iterator;
-
 /**
  * https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
  */

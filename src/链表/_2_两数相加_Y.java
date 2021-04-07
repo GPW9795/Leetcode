@@ -1,7 +1,5 @@
 package 链表;
 
-import java.util.LinkedList;
-
 /**
  * https://leetcode-cn.com/problems/add-two-numbers/
  */

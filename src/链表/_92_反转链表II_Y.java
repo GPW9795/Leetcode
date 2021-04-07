@@ -1,8 +1,6 @@
 package 链表;
 
 
-import java.util.List;
-
 /**
  * https://leetcode-cn.com/problems/reverse-linked-list-ii/
  */

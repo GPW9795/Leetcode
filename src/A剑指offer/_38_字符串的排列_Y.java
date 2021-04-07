@@ -1,7 +1,6 @@
 package A剑指offer;
 
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.LinkedList;
 import java.util.List;
 

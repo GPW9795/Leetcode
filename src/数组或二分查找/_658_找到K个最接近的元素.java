@@ -1,7 +1,5 @@
 package 数组或二分查找;
 
-import java.util.Arrays;
-import java.util.Comparator;
 import java.util.List;
 
 /**

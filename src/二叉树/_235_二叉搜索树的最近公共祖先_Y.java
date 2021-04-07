@@ -1,8 +1,5 @@
 package 二叉树;
 
-import java.util.LinkedList;
-import java.util.List;
-
 /**
  * https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
  */

@@ -2,8 +2,6 @@ package 栈;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.List;
-import java.util.Stack;
 
 /**
  * https://leetcode-cn.com/problems/remove-k-digits/

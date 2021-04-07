@@ -1,9 +1,6 @@
 package 数学或字符串;
 
-import java.sql.Array;
-import java.util.Arrays;
 import java.util.LinkedList;
-import java.util.List;
 
 /**
  * https://leetcode-cn.com/problems/reverse-words-in-a-string/

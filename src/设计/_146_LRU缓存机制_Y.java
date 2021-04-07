@@ -1,8 +1,6 @@
 package 设计;
 
 import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Queue;
 
 /**
  * https://leetcode-cn.com/problems/lru-cache/

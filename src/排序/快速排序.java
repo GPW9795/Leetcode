@@ -1,10 +1,10 @@
 package 排序;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class 快速排序 {
     public static void main(String[] args) {
+        StringBuilder sb = new StringBuilder();
         int[] arr = {2, 5, 8, 5, 1, 7, 9, 0, 8};
         System.out.println(Arrays.toString(sort(arr)));
     }

@@ -1,7 +1,6 @@
 package 链表;
 
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * https://leetcode-cn.com/problems/palindrome-linked-list/

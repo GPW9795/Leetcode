@@ -1,8 +1,5 @@
 package 二叉树;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
 /**
  * https://leetcode-cn.com/problems/balanced-binary-tree/
  */

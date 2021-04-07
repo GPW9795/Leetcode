@@ -1,7 +1,6 @@
 package 哈希表;
 
 import java.util.*;
-import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
  * https://leetcode-cn.com/problems/unique-number-of-occurrences/

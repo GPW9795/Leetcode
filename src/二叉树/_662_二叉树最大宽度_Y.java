@@ -2,8 +2,6 @@ package 二叉树;
 
 import java.util.Deque;
 import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
 
 /**
  * https://leetcode-cn.com/problems/maximum-width-of-binary-tree/

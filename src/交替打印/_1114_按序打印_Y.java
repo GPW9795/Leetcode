@@ -1,8 +1,6 @@
 package 交替打印;
 
 import java.util.concurrent.Semaphore;
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * https://leetcode-cn.com/problems/print-in-order/

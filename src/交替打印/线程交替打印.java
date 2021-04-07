@@ -1,9 +1,6 @@
 package 交替打印;
 
-import java.util.Comparator;
-import java.util.PriorityQueue;
 import java.util.concurrent.Semaphore;
-import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 class 线程交替打印 {
