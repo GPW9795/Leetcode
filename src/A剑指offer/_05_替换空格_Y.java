@@ -1,10 +1,6 @@
 package A剑指offer;
 
-public class _05_替换空格 {
-    public static void main(String[] args) {
-
-    }
-
+public class _05_替换空格_Y {
     public String replaceSpace(String s) {
         if (s == null || s.length() == 0) return s;
         StringBuilder sb = new StringBuilder();
