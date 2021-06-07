@@ -1,6 +1,9 @@
 package A剑指offer;
 
-public class _58_II_左旋转字符串 {
+/**
+ * https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/
+ */
+public class _58_II_左旋转字符串_Y {
     public static String reverseLeftWords(String s, int n) {
         String right = s.substring(n);
         StringBuilder sb = new StringBuilder();
