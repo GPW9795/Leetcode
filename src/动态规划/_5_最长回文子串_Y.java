@@ -27,7 +27,7 @@ public class _5_最长回文子串_Y {
         for (int i = 0; i < len; i++) {
             dp[i][i] = true;
         }
-        int maxLen = 0, begin = 0;
+        int maxLen = 1, begin = 0;
         // 枚举所有i，j的情况所以i从0开始、len - 2结束，j从i + 1开始、len - 1结束
         for (int j = 1; j < len; j++) {
             for (int i = 0; i < j; i++) {
